@@ -1,1 +1,0 @@
-{"version":3,"file":"\/Users\/felix\/Projects\/bare-minimum-clojurescript-setup\/out\/frontend\/app.js","sources":["app.cljs"],"lineCount":12,"mappings":";AAAA;;;;AAIA,YAAA,ZAACA;AAGD,mBAAA,nBAAMC;AAAN,AAAA,0FAAA,mDAAA,mFAAA,kDAAA;;AAOA,6BAAA,7BAACC,gHAAaD,yBAAK,wBAAA,xBAACE","names":["js\/console.log","frontend.app\/app","reagent.dom\/render","js\/document.getElementById"]}
