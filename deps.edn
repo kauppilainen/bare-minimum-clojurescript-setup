@@ -1,0 +1,17 @@
+{:paths ;; Where to look for clojure code
+ ["src" "tests" "resources"]
+
+ :deps ;; Dependencies
+ {org.clojure/clojurescript {:mvn/version "1.10.597"}
+  reagent {:mvn/version "0.10.0"}}
+
+ :aliases ;; Build aliases for our app. Can be different for dev, test, prod and so on
+ {:dev
+  {:main-opts ["-m" "cljs.main" ;; run clojurescript
+               "-ro" "{:static-dir,[\".\",\"out\",\"resources\"]}" ;; tell repl where to find static files like html/css
+               "-w" "src" ;; watch files for changes and recompile on save
+               "-c" "frontend.app" ;; run our app
+               "-r" ;; run a browser connected repl
+               ]}}}
+
+
