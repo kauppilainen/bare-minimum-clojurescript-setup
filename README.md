@@ -3,18 +3,19 @@ This is a try to show the bare minimum of a clojurescript setup
 1. Install Clojure
 
 2. Create file structure
+```
 .
-├── README.md
-├── resources
-│   ├── index.html
-│   └── style.css
-├── src
-│   └── frontend
-│       └── app.cljs
-└── tests
-    └── frontend
-        └── app_tests.cljs
-        
++-- README.md
++-- resources
+    +-- index.html
+    +-- style.css
++-- src
+    +-- frontend
+        +--app.cljs
++-- tests
+    +-- frontend
+        +--app_tests.cljs
+```        
 
 2.1 index.html
 ```html
