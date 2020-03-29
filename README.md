@@ -73,7 +73,7 @@ This is an attempt to show the bare minimum of a clojurescript setup
 
 Congratulations. You have a working ClojureScript app with files being watched, code recompiles on save and a connected repl to the browser all with *zero dependencies*
 
-What we have now is nice and very powerful, but we probably want to generate html from clojurescript as well add reagent (a minimal wrapper around react)
+What we have now is nice and very powerful, but we probably want to generate html from clojurescript as well, so we add reagent (a minimal wrapper around react)
 
 5. Add reagent as a dependency in `deps.edn`
 ```clojure
