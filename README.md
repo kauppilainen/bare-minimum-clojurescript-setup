@@ -47,8 +47,8 @@ This is a try to show the bare minimum of a clojurescript setup
 
 3. Choose Build tool
 - clj
- - created by the maintainers of clojure
- - great for simple to advanced builds. Gives the freedom to add whatever you want in form of addons to your project.
+  - created by the maintainers of clojure
+  - great for simple to advanced builds. Gives the freedom to add whatever you want in form of addons to your project.
 
 4. Create config file deps.edn (for clj build tool. Different for each build tool)
 ```clojure
