@@ -1,4 +1,4 @@
-This is a try to show the bare minimum of a clojurescript setup
+This is an attempt to show the bare minimum of a clojurescript setup
 
 1. Install Clojure
 
